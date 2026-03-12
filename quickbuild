@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+python3 cleanup.py CITE_FILE_NAME.json CITE_FILE_NAME-cleaned.json
+pandoc -o pdf-quick-build-PROJECT_NAME.pdf --defaults=CHOOSE_RESEARCH_OR_BLUEBOOK draft.md
+pandoc -o docx-quick-build-PROJECT_NAME.docx --defaults=CHOOSE_RESEARCH_OR_BLUEBOOK draft.md
+git add .
+git commit -m "draft"
+git push
