@@ -16,6 +16,6 @@ quick and dirty template for my writing projects done in pandoc markdown
 
 - `cleanup.py` a helper python script to get rid of useless fields from the citation files, so that we don't end up with academic articles with URLS in addition to their citations etc. 
 
-Everything else will be moved to the directory `repository_template_files`, which contains the templating files necessary to build the stub.  After building it may safely be ignored or deleted. 
+Everything else will be moved to the directory `repository_template_files`, which contains the templating files necessary to build the stub.  After building it may safely be ignored or deleted. (Also, I've put a `.gitignore` in it to make sure that the files moved here don't stick around.)
 
 In addition, this repository contains `pandoc_dependencies` which has, as the name suggests, the dependencies that the pandoc build process I use requires, and `alternative_date_system` which has an additional python script (and slightly tweaked `quickbuild`) that I used to use to update the dates on each build before I realized that pandoc has a built-in lua script these days to do that.

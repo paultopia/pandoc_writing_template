@@ -24,4 +24,4 @@ with open('draft.md', 'w', encoding='utf-8') as draftout:
 	draftout.write(draft_content)
 
 with open('quickbuild', 'w', encoding='utf-8') as quickbuildout:
-	quickbuild.write(quickbuild_content)
+	quickbuildout.write(quickbuild_content)
