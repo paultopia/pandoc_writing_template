@@ -1,11 +1,16 @@
 ---
 title: '$title'
-author: “Paul Gowder”
+author: “$author”
 bibliography: $citefile-cleaned.json
 toc: true
-date: "March 12, 2026"
+date: $date
 ---
 
+
+# Abstract
+
+
 # Introduction
+
 
 

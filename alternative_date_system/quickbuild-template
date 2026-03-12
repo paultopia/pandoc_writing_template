@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+git add .
+git commit -m "safety commit before possibly destructive building"
+git push
+python3 update-date.py  # in the main version, this is handled by pandoc's current date lua script
 python3 cleanup.py $citefile.json $citfile-cleaned.json
 pandoc -o pdf-quick-build-$project_name.pdf --defaults=$citeformat draft.md
 pandoc -o docx-quick-build-$project_name.docx --defaults=$citeformat draft.md

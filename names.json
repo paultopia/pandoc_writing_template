@@ -1,2 +1,5 @@
 {"title": "YOUR TITLE", 
-"citefile": "THE NAME OF YOUR CITATION FILE IN CSL JSON, WITHOUT THE EXTENSION"}
+"citefile": "THE NAME OF YOUR CITATION FILE IN CSL JSON, WITHOUT THE EXTENSION",
+"author": "Paul Gowder",
+"project_name": "YOUR PROJECT NAME",
+"citeformat": "CHOOSE research OR bluebook"}
