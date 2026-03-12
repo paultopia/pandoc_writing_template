@@ -1,12 +1,11 @@
 standalone: true
 pdf-engine: xelatex
 strip-comments: true
-metadata:
-  author: Paul Gowder
 citeproc: true
 csl: chicago-author-date
 filters:
   - current-date.lua
+  - fix-possessives.lua
 table-of-contents: true
 toc-depth: 3
 number-sections: false
