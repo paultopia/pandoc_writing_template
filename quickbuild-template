@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-python3 cleanup.py $citefile.json $citfile-cleaned.json
+python3 cleanup.py $citefile.json $citefile-cleaned.json
 pandoc -o pdf-quick-build-$project_name.pdf --defaults=$citeformat draft.md
 pandoc -o docx-quick-build-$project_name.docx --defaults=$citeformat draft.md
 git add .
