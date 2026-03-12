@@ -7,3 +7,9 @@ date: “November 20, 2025”
 ---
 
 # Introduction
+
+Blah blah blah this is some text. date: here is more text 
+
+date: November 20, 2025
+
+that shouldn't be changed.
