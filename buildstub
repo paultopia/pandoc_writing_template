@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 python3 stub-project.py
+chmod +x quickbuild
 mv alternative_date_system repository_template_files
 mv buildstub repository_template_files
 mv draft-template.md repository_template_files

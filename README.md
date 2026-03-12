@@ -8,11 +8,11 @@ quick and dirty template for my writing projects done in pandoc markdown
 
 2.  Edit the values of `names.json` with the appropriate values for document title, project title, citation file title that you'll be using (I use CSL json files generated and auto-updated by Zotero with Better Bibtex), preferred citation format, and, if you're not me, author name. :-)  
 
-3. Run `./buildstub` (you may need to use `chomd + x` to make it executable), a shell script which will leave you with the following files: 
+3. Run `./buildstub` (you may need to use `chomd + x` to make it executable, but I don't think so...), a shell script which will leave you with the following files: 
 
 - `draft.md`: the markdown file to write the draft in.
 
-- `quickbuild`: a shell script to, as the name suggests, quickly build the document in word and PDF formats, and also do a git commit.  The build will, I suspect, throw an error if there isn't a citation file.  Also, you might need to use `chomd + x` to make this one executable too.
+- `quickbuild`: a shell script to, as the name suggests, quickly build the document in word and PDF formats, and also do a git commit.  The build will, I suspect, throw an error if there isn't a citation file.  Also, you might need to use `chomd + x` to make this one executable too, maybe...
 
 - `cleanup.py` a helper python script to get rid of useless fields from the citation files, so that we don't end up with academic articles with URLS in addition to their citations etc. 
 
